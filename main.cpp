@@ -309,7 +309,7 @@ int main() {
                 DrawText(TextFormat("SCORE_CPU : %d", cpu_score), 20, 20, 20, MAROON);
                 DrawText(TextFormat("SCORE_PLAYER : %d", player_score), 20, 50, 20, MAROON);
                 DrawText("COMPUTER_AI", 900, 700, 30, MAROON);
-                DrawText("TIME IS FINISH ...!\n\nSAME MARKS\n\nDO YOU WANT TO REPLAY?", 460, 50, 30, MAROON);
+                DrawText("TIME IS FINISH ...!\n\nGAME TIED\n\nDO YOU WANT TO REPLAY?", 460, 50, 30, MAROON);
                 if (exitButton.isPressed(mousePosition, mousePressed)) {
                     CloseWindow();
                     return 0;
